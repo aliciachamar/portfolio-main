@@ -15,20 +15,22 @@
     <header>
         <h1>Alicia Nash</h1>
         <nav>
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Resume</a></li>
-            </ul>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+            <a href="#resume">Resume</a>
         </nav>
     </header>
 
     <main>
         <div class="row">
-            <h2>About Me</h2>
-            <section class="content">
+            <aside class="heading" id="about">
+                <h2>About</h2>
+            </aside>
+            <section class="content headshot">
                 <img src="./assets/images/headshot.jpg" alt="photo of Alicia Nash">
+            </section>
+            <section class="content">
                 <p>
                     I am an entry-level web developer, currently enrolled in Denver University's bootcamp.
                     <br>
@@ -39,15 +41,44 @@
                     I am excited to join the workforce as a new web developer and make my mark on the industry!
                 </p>
             </section>
-        </div> 
+        </div>
         <div class="row">
-            <h2>Portfolio</h2>
+            <aside class="heading" id="portfolio">
+                <h2>Portfolio</h2>
+            </aside>
+            <div>
+                <section class="content project project-first fadein">
+                    <a href="https://aliciachamar.github.io/portfolio/" target="_blank"><img src="./assets/images/first-portfolio.PNG" alt="screenshot of first portfolio project"></a>
+                </section>
+                <section class="content project fadein">
+                    <a href="https://aliciachamar.github.io/portfolio/" target="_blank"><img src="./assets/images/first-portfolio.PNG" alt="screenshot of first portfolio project"></a>
+                </section>
+                <section class="content project fadein">
+                    <a href="https://aliciachamar.github.io/portfolio/" target="_blank"><img src="./assets/images/first-portfolio.PNG" alt="screenshot of first portfolio project"></a>
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <aside class="heading" id="contact">
+                <h2>Contact</h2>
+            </aside>
             <section class="content">
-                
+                <a href="mailto:aliciachamar@gmail.com">aliciachamar@gmail.com</a>
+                <a href="https://github.com/aliciachamar" target="_blank">Github</a>
+                <a href="https://www.linkedin.com/in/alicia-nash-274481116/" target="_blank">LinkedIn</a>
             </section>
-        </div> 
+        </div>
+        <div class="row">
+            <aside class="heading">
+                <h2>Resume</h2>
+            </aside>
+            <section class="content">
+                <a href="./assets/files/resume.pdf" target="_blank">PDF Format</a>
+            </section>
+        </div>
     </main>
 
+    
     <footer>
         <span>&#169; Alicia Nash 2021</span>
     </footer>
