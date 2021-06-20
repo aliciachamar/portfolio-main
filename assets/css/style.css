@@ -42,6 +42,7 @@ header nav a:hover {
 .row {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 10px;
 }
 
 .heading {
@@ -114,6 +115,12 @@ footer {
     text-align: center;
     margin-top: 20px;
     color: white;
+}
+
+hr {
+    background-color: rgb(76, 52, 131);
+    height: 1px;
+    border: none;
 }
 
 @media screen and (max-width: 768px) {
